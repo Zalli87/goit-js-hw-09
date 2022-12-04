@@ -4,6 +4,7 @@ import "flatpickr/dist/flatpickr.min.css";
 const element = document.querySelector('input#datetime-picker');
 let selectedDate;
 let intervalId = null;
+let validDate;
 const options = {
   enableTime: true,
   time_24hr: true,
